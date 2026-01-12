@@ -1,5 +1,5 @@
 import PIL.Image
-img = PIL.Image.open("PhotoExample.jpeg")
+img = PIL.Image.open("Photo_Example.jpeg")
 import PIL.ExifTags
 exif= {
     PIL.ExifTags.TAGS[k]: v
